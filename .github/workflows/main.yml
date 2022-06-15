@@ -17,5 +17,4 @@ jobs:
       with:
         who-to-greet: 'Courd'
     - name: Get the output time
-      run: echo "teehee"
-      # run: echo "The time was ${{ steps.hello.outputs.time }}"
+      run: echo "The time was ${{ steps.hello.outputs.time }}"
