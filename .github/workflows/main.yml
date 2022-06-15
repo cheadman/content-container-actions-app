@@ -7,11 +7,15 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+    - name: ls
+      run: ls
+    - name: pwd
+      run: pwd
     # - name: Hello world action step
     #   id: hello
     #   uses: ./
     #   with:
     #     who-to-greet: 'Courd'
     - name: Get the output time
-      # run: echo "The time was ${{ steps.hello.outputs.time }}"
       run: echo "teehee"
+      # run: echo "The time was ${{ steps.hello.outputs.time }}"
