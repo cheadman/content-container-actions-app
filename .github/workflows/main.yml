@@ -11,11 +11,11 @@ jobs:
       run: ls
     - name: pwd
       run: pwd
-    # - name: Hello world action step
-    #   id: hello
-    #   uses: ./
-    #   with:
-    #     who-to-greet: 'Courd'
+    - name: Hello world action step
+      id: hello
+      uses: ./
+      with:
+        who-to-greet: 'Courd'
     - name: Get the output time
       run: echo "teehee"
       # run: echo "The time was ${{ steps.hello.outputs.time }}"
